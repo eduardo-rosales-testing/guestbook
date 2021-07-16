@@ -41,5 +41,5 @@ app.use(function(request, response) {
 });
 
 http.createServer(app).listen(3000, function() {
-  console.log("Guestbook app started on port 3000.")
+  console.log("Guestbook app started on port 3000.");
 })
