@@ -15,7 +15,7 @@ app.use(logger("dev"));
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function(request, response) {
-  response.render("index");
+  response.render("index", entries);
 });
 
 app.get('/new-entry', function(request, response) {
